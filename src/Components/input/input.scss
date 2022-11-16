@@ -1,0 +1,20 @@
+@import '../variables.scss';
+.input {
+    width: calc(250px - 45px);
+    height: 32px;
+    background: #dBe2ef;
+    border: 1px solid rgba(177, 177, 177, 0.4);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: $fw_400;
+    font-size: $fz_12;
+    line-height: 14px;
+    color: $primary;
+    outline-color: $secondary;
+    &::placeholder {
+        color: #7b7b7b;
+    }
+}
