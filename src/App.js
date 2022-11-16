@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import Input from './Components/input/input';
 import Button from './Components/button/button';
+import Todo from './Components/todos/todo';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Button></Button>
       </div>
       <hr></hr>
+      <Todo></Todo>
+      <Todo></Todo>
     </div>
   );
 }

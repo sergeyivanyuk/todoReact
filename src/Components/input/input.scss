@@ -2,7 +2,7 @@
 .input {
     width: calc(250px - 45px);
     height: 32px;
-    background: #dBe2ef;
+    background: $bgcolor;
     border: 1px solid rgba(177, 177, 177, 0.4);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
